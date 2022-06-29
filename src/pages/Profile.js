@@ -28,9 +28,9 @@ const Profile = () => {
     const dataPerformances = useApi(url.userPerformances(id))
 
 
-    if (dataMain.errorUrl || dataActivity.errorUrl || dataAverageSessions.errorUrl || dataPerformances.errorUrl) {
-        return <Navigate to="/error" />
-    }
+    // if (dataMain.errorUrl || dataActivity.errorUrl || dataAverageSessions.errorUrl || dataPerformances.errorUrl) {
+    //     return <Navigate to="/error" />
+    // }
 
     return (
         <div className='Profile'>
